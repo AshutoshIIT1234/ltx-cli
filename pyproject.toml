@@ -49,6 +49,9 @@ Homepage = "https://github.com/AshutoshIIT1234/ltx-cli"
 Repository = "https://github.com/AshutoshIIT1234/ltx-cli"
 Issues = "https://github.com/AshutoshIIT1234/ltx-cli/issues"
 
+[tool.hatch.build.targets.wheel]
+packages = ["ltx"]
+
 [build-system]
-requires = ["setuptools>=68.0", "wheel"]
-build-backend = "setuptools.build_meta"
+requires = ["hatchling"]
+build-backend = "hatchling.build"
