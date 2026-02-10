@@ -9,7 +9,7 @@
 <p align="center">
   <a href="#installation"><img src="https://img.shields.io/badge/python-3.9+-blue.svg" alt="Python 3.9+"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-green.svg" alt="MIT License"></a>
-  <a href="https://github.com/YOUR_USERNAME/ltx-cli/issues"><img src="https://img.shields.io/badge/contributions-welcome-orange.svg" alt="Contributions Welcome"></a>
+  <a href="https://github.com/AshutoshIIT1234/ltx-cli/issues"><img src="https://img.shields.io/badge/contributions-welcome-orange.svg" alt="Contributions Welcome"></a>
 </p>
 
 ---
@@ -40,7 +40,7 @@ This CLI makes experimentation **fast**, **reproducible**, and **beginner-friend
 ### From source (recommended for development)
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/ltx-cli.git
+git clone https://github.com/AshutoshIIT1234/ltx-cli.git
 cd ltx-cli
 pip install -e .
 ```

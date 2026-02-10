@@ -6,7 +6,7 @@ Thanks for your interest in contributing! 🎉
 
 ### 1. Fork & Clone
 ```bash
-git clone https://github.com/YOUR_USERNAME/ltx-cli.git
+git clone https://github.com/AshutoshIIT1234/ltx-cli.git
 cd ltx-cli
 ```
 

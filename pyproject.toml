@@ -3,7 +3,7 @@ name = "ltx-cli"
 version = "0.1.0"
 description = "A reproducible CLI for running LTX-2 video generation with presets, configs, and smart defaults."
 authors = [
-    { name = "Your Name", email = "your.email@example.com" }
+    { name = "Ashutosh Kumar Tripathi", email = "tripathiashu342@gmail.com" }
 ]
 license = { text = "MIT" }
 readme = "README.md"
@@ -43,9 +43,9 @@ dev = [
 ltx = "ltx.cli:app"
 
 [project.urls]
-Homepage = "https://github.com/YOUR_USERNAME/ltx-cli"
-Repository = "https://github.com/YOUR_USERNAME/ltx-cli"
-Issues = "https://github.com/YOUR_USERNAME/ltx-cli/issues"
+Homepage = "https://github.com/AshutoshIIT1234/ltx-cli"
+Repository = "https://github.com/AshutoshIIT1234/ltx-cli"
+Issues = "https://github.com/AshutoshIIT1234/ltx-cli/issues"
 
 [build-system]
 requires = ["setuptools>=68.0", "wheel"]
