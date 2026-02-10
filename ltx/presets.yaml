@@ -1,0 +1,52 @@
+presets:
+  fast:
+    description: "Quick preview, minimal VRAM usage"
+    vram_target: "8GB"
+    config:
+      height: 480
+      width: 854
+      batch_size: 1
+      precision: "fp16"
+      frames_per_chunk: 8
+      scheduler:
+        num_inference_steps: 20
+        guidance_scale: 3.0
+
+  balanced:
+    description: "Default balanced configuration, moderate VRAM usage"
+    vram_target: "12GB"
+    config:
+      height: 720
+      width: 1280
+      batch_size: 1
+      precision: "bf16"
+      frames_per_chunk: 16
+      scheduler:
+        num_inference_steps: 30
+        guidance_scale: 3.0
+
+  quality:
+    description: "Best visuals, high VRAM usage"
+    vram_target: "24GB"
+    config:
+      height: 1080
+      width: 1920
+      batch_size: 1
+      precision: "bf16"
+      frames_per_chunk: 24
+      scheduler:
+        num_inference_steps: 50
+        guidance_scale: 4.0
+
+  low-vram:
+    description: "Laptop GPU friendly, limited features"
+    vram_target: "6GB"
+    config:
+      height: 384
+      width: 640
+      batch_size: 1
+      precision: "fp16"
+      frames_per_chunk: 4
+      scheduler:
+        num_inference_steps: 20
+        guidance_scale: 3.0

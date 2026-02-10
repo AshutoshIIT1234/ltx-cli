@@ -1,0 +1,10 @@
+prompt: "sunset over the ocean, highly detailed, photorealistic"
+preset_name: "custom"
+width: 768
+height: 512
+frames_per_chunk: 8
+batch_size: 1
+precision: "fp16"
+scheduler:
+  num_inference_steps: 25
+  guidance_scale: 3.5
