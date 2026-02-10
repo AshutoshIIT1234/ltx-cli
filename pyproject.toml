@@ -31,6 +31,8 @@ dependencies = [
     "diffusers>=0.25.0",
     "transformers>=4.30.0",
     "accelerate>=0.20.0",
+    "sentencepiece>=0.1.99",
+    "protobuf>=3.20.0",
 ]
 
 [project.optional-dependencies]
